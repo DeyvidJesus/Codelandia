@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'B612', sans-serif;
+    color: #FFF;
+}
+
+body {
+    background-image: url(img/FUNDO.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#title {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+main {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 65vw;
+    font-size: 1.2rem;
+}
+
+#cover {
+    width: 12rem;
+    margin-right: 4rem;
+    border-radius: 1rem;
+}
+
+#info {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filled-star {
+    width: 2rem;
+}
+
+.empty-star {
+    width: 2rem;
+}
+
+#watch-now {
+    width: 12rem;
+    height: 4rem;
+    background: #0072D2;
+    border: none;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 1.2rem;
+}
+
+#watch-now:hover {
+    cursor: pointer;
+    background: #025ba3;
+}
+
+#trailer {
+    width: 9rem;
+    height: 4rem;
+    border: solid 1px #FFF;
+    background: #131318;
+    font-weight: bold;
+    padding: 1.2rem;
+}
+
+#trailer:hover {
+    cursor: pointer;
+    background: #0a0a0c;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: column;
+    height: 19rem;
+    justify-content: space-between
+}

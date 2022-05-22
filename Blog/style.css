@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400&display=swap');
+
+*, p{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+.container{
+    width: 800px;
+}
+
+.card{
+    margin: 30px;
+}
+
+.text{
+    color: gray;
+}
+
+#header{
+    background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+#card-color{
+    background-color: white;
+}
+
+.search{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    border: none;
+}
+
+.search::placeholder{
+    color: rgb(231, 227, 227);
+}
+
+.icone:hover{
+    transition: .5s;
+    transform: scale(1.5);
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'B612', sans-serif;
+    color: #FFF;
+}
+
+body {
+    background: #4d5174;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+
+#info {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15rem;
+    align-items: center;
+}
+
+#back {
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    background: #1b28a1;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#image {
+    width: 25rem;
+}

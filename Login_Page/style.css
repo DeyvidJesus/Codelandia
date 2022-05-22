@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700&display=swap');
+
+/* Configurações globais */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    color: #2B6CB0;
+}
+
+/* Container */
+
+#container{
+    display: flex;
+}
+
+/* Itens */
+
+.item{
+    width: 50vw;
+    display: flex;
+    height: 100vh;
+    background-color: #F7FAFC;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item:last-child{
+    background-color: #fff;
+}
+
+/* Imagem */
+
+#image{
+    width: 400px;
+}
+
+/* Formulário */
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+}
+
+/* Título do formulário */
+
+#form-title{
+    margin-bottom: 20px;
+}
+
+#form-title > h1, p{
+    font-family: 'Merriweather', serif;
+}
+
+/* Inputs */
+
+input{
+    margin: 12px 0;
+    padding: 10px;
+}
+
+::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+}
+
+#email, #senha{
+    width: 93%;
+    height: 30px;
+}
+
+label{
+    font-size: 16px;
+}
+
+/* Lembrar de mim e esqueceu a senha? */
+
+#form-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botões */
+
+#botao-entrar{
+    height: 50px;
+    width: 100%;
+    background-color:#04C35C;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#botao-entrar:hover{
+    background-color: #04a04d;
+}
+
+#botao-google{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background: #1A202C;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+#botao-google:hover{
+    background-color: #12151b;
+}
+
+/* Rodapé */
+
+footer > p{
+    top: 80px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+
+/* Media queries */
+
+/* Tablets e dispositivos móveis */
+@media (max-width: 800px){
+    .item:first-child{
+        display: none;
+        visibility: hidden;
+    }
+
+    .item:last-child{
+        width: 100vw;
+        margin: 20px;
+    }
+
+    #botao-google{
+        padding: 7px;
+    }
+}
