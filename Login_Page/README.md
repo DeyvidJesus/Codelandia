@@ -13,12 +13,6 @@ Uma simples página de login para praticar meus conhecimentos de HTML5 e CSS3. E
 - HTML5
 - CSS3
 
-## Link
-
-<div align="center">
-  <h3><a href="https://deyvidjesus.github.io/Login-Page/" target="_blank" >Acesse a Login Page aqui</a></h3>
-</div>
-
 ## Status
 
 <h4 align="center">Projeto finalizado ✅</h4>
