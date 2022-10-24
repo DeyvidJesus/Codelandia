@@ -15,14 +15,6 @@ Primeiramente eu comecei desenvolvendo as duas primeiras "barras" do site, após
 Nesse ponto já havia utilizado aproximadamente 5 horas no projeto. Sendo assim, somente foi necessário criar a responsividade da página.
 No final de tudo, ficou bem legal e é muito satisfatório ver o projeto final funcionando.
 
-## Acesse o site
-
-<div align="center">
-  
-<a href="https://deyvidjesus.github.io/Jordan-Store/" target="_blank">Jordan Shoes</a>
-  
-</div>
-
 ##
 
 <div align="center">
