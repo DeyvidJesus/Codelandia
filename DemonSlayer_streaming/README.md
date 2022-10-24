@@ -15,11 +15,5 @@
 * CSS
 * Figma
 
-## Link
-
-<div align="center">
-  <h3><a href="https://deyvidjesus.github.io/DemonSlayer-streaming/" target="_blank" >Acesse aqui</a></h3>
-</div>
-
 ## Status
 <h4 align="center">Projeto finalizado ✅</h4>
